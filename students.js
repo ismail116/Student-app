@@ -20,7 +20,7 @@ const addStudent = (id,name,degrees) =>{
         id,name,degrees
     })
     saveStudent(students)
-    console.log('Saved Successfully')
+    console.log('Added and Saved Successfully')
    } else{
     console.log('Error Duplicated')
    }
@@ -43,7 +43,7 @@ const addStudent = (id,name,degrees) =>{
    
     if( studentsToKeep.length !== students.length){
      saveStudent(studentsToKeep)
-     console.log('Delete Successfully')
+     console.log('Deleted Successfully')
     } else{
     console.log('no ID is found')
     }
@@ -65,6 +65,7 @@ const addStudent = (id,name,degrees) =>{
 
    console.log(student)
    if(student){
+    console.log('Read Successfully')
     console.log(student.name)
     let total=0
      student.degrees.forEach((el)=>{
@@ -89,8 +90,8 @@ const addStudent = (id,name,degrees) =>{
     })
 }
 
-
-
+//////////////////////////////////////////////////////////////////////////////////
+// loadStudent
 
 
 
@@ -104,6 +105,9 @@ const loadStudent = () =>{
     }
 
 }
+//////////////////////////////////////////////////////////////////////////////////
+// saveStudent
+
 const saveStudent = (students) =>{
     // notes --> [ { title: 'new', body: 'body1' } ]
     //  [{title:"new",body:"body1"}],{title:"title1",body:"body2"}]] -->

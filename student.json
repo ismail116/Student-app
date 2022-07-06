@@ -1,5 +1,7 @@
 [
   { "id": 1, "name": "Ismail", "degrees": [10, 20, 30] },
   { "id": 2, "name": "Mohamed", "degrees": [9, 10, 20] },
-  { "id": 3, "name": "Helal", "degrees": [10, 15, 19] }
+  { "id": 3, "name": "Helal", "degrees": [10, 15, 19] },
+  { "id": 4, "name": "Abdallh", "degrees": [10, 20, 30, 50] },
+  { "id": 5, "name": "Mostafa", "degrees": [12, 15, 40, 60] }
 ]
