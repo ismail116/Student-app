@@ -66,11 +66,12 @@ const addStudent = (id,name,degrees) =>{
    console.log(student)
    if(student){
     console.log(student.name)
-    // const total = student.degrees.forEach((el)=>{
+    let total=0
+     student.degrees.forEach((el)=>{
         
-    //     total += el
-    // })
-    const total = student.degrees[0]+student.degrees[1]+student.degrees[2]
+        total += el
+    })
+    // const total = student.degrees[0]+student.degrees[1]+student.degrees[2]
     console.log(total)
    }else{
     console.log('not Found')
